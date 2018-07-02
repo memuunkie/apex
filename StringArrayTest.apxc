@@ -1,0 +1,10 @@
+public class StringArrayTest {
+  public static String[]generateStringArray(Integer howMany) {
+    // return howMany number of strings in an array
+    List<String> allStrings = new List<String>();
+      for (Integer i = 0; i < howMany; i++) {
+        allStrings.add('Test ' + i);
+      }
+    return allStrings;
+  }
+}
